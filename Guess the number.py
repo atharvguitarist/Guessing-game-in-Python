@@ -7,6 +7,7 @@ number = None
 
 # Define a function to guess the number
 def guess_number():
+   global number
    # Try to execute the following code
    try:
        # If 'number' is None, generate a random number within the range provided by the user
